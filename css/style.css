@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.d_block {
+    display: block;
+}
+
+/* ===navbar part start === */
+#navbar{
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: 1s;
+}
+
+#navbar.sticky{
+    position: fixed;
+    background-color: #009B77;
+    top: 0;
+    padding: 5px 0;
+}
+
+#navbar ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 8px 20px;
+}
+
+#navbar ul li .btn_spcl i{
+  margin-right: 10px;
+}
+#navbar ul li .btn_spcl{
+    opacity: .6;
+}
+/* ===navbar part end === */
+
+/* ===banner part start === */
+#banner{
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner .overlay{
+    background: rgba(18, 10, 52, 0.70);
+    padding: 150px 0 200px 0;
+}
+
+#banner .heading{
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.sub_heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: 27px;
+}
+/* ===banner part end === */
+
+/* ===logo slider part start === */
+#logo_slider{
+    padding: 120px 0;
+}
+
+#logo_slider .slider_main img{
+    margin: 0 auto;
+}
+/* ===logo slider part end === */
+
+/* ===cars slider part start === */
+#cars .sub_heading{
+    color: #0D0A19;
+    font-size: 24px;
+    text-align: left;
+}
+
+#cars .cars_slider{
+    margin-top: 46px;
+}
+
+#cars .cars_slider .item{
+    padding: 26px;
+    border: 2px dotted #0D0A19;
+    margin: 0 20px;
+}
+
+#cars .cars_slider .item .img img{
+    width: 100%;
+}
+
+#cars .cars_slider .item h6{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D0A19;
+    margin-top: 15px;
+}
+
+#cars .cars_slider .item h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0D0A19;
+    margin-top: 5px;
+    opacity: .5;
+}
+
+#cars .cars_slider .item h5 span{
+    margin-right: 15px;
+}
+
+#cars .cars_slider .item .icon_name{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#cars .cars_slider .item .icon{
+    padding: 5px;
+    border: 1px solid #e2d5d5;
+    border-radius: 5px;
+}
+
+#cars .cars_slider .item .name h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: #0D0A19;
+} 
+
+#cars .cars_slider .item span{
+    font-size: 14px;
+    opacity: .5;
+}
+
+#cars .cars_slider .item .bid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    align-items: center;
+}
+
+#cars .cars_slider .item .bid h3{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#cars .cars_slider .item .bid .price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#cars .cars_slider .item .bid .bid_btn a{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 25px;
+    background-color: #7963F0;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.arrow{
+    font-size: 25px;
+    color: #0D0A19;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(228, 237, 244);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.prevarrow{
+    position: absolute;
+    top: -70px;
+    right: 10%;
+}
+
+.nextarrow{
+    position: absolute;
+    top: -70px;
+    right: 5%;
+}
+/* ===cars slider part end === */
+
+/* ===cars model part start === */
+#car_model{
+    padding: 100px 0;
+}
+
+#car_model ul{
+    display: flex;
+    justify-content: end;
+}
+
+#car_model ul li button{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0D0A19;
+    opacity: .6;
+    background: none;
+}
+
+#car_model ul li button.active{
+    opacity: 1;
+}
+
+#car_model .details .main .text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+#car_model .details .main{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 30px 0;
+}
+#car_model .details .main .text span{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    opacity: .5;
+    margin-top: 3px;
+}
+
+#car_model .details .item{
+    display: flex;
+    justify-content: space-between;
+}
+
+#car_model .details ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#car_model .details ul li{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0D0A19;
+}
+
+#car_model .details .right{
+    opacity: .6;
+}
+/* ===cars model part end === */
+
+/* ===about part start === */
+#about{
+    padding: 80px 0;
+    background-color: #F5F6F7;
+}
+
+#about .about_heading{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D0A19;
+    margin-bottom: 10px;
+}
+
+#about ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#about ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0D0A19;
+    opacity: .6;
+}
+/* ===about part end === */
+
+/* ====footer part start === */
+#footer{
+    padding: 30px 0;
+    text-align: center;
+}
+
+#footer .item{
+display: flex;
+gap: 10px;
+justify-content: center;
+}
+
+#footer .item h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0D0A19;
+}
+
+#footer .item h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0D0A19;
+    opacity: .5;
+}
+/* ====footer part end === */
+
+/* ==========back to top part ======= */
+.back_to_top{
+    height: 30px;
+    width: 30px;
+    background-color: #744fa0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+    right: 10px;
+    top: 10%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 1s;
+}
+.back_to_top i{
+    font-size: 20px;
+    color: white;
+}
+.bottom_to_top{
+    opacity: 1;
+    visibility: visible;
+    top: 90%;
+    animation: top 2s linear; 
+    transform: scale(1.2);
+}
+@keyframes top {
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: 95%;
+    }
+    100%{
+        top: 90%;
+    }
+}
+/* ==========back to top part ======= */

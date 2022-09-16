@@ -1,0 +1,511 @@
+@media (min-width: 1400px) {
+    /* ===navbar part start === */
+    #navbar .toggler_icon i {
+        font-size: 22px;
+        color: white;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+/* ===navbar part end === */
+
+    /* ===banner part start === */
+
+    #banner .overlay {
+        padding: 150px 0 140px 0;
+    }
+    #banner .heading {
+        font-size: 52px;
+    }
+    /* ===banner part end === */
+
+    /* logo slider start  */
+    #logo_slider {
+        padding: 90px 0;
+    }
+    /* logo slider end  */
+
+    /* ===cars slider start === */
+
+    #cars .cars_slider .item {
+        margin: 0 20px;
+    }
+
+    #cars .cars_slider .item {
+        padding: 23px;
+    }
+
+    #cars .sub_heading {
+        font-size: 25px;
+    }
+
+    .arrow {
+        font-size: 20px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .prevarrow {
+        right: 11%;
+    }
+
+    #cars .cars_slider .item .bid .bid_btn a {
+        padding: 9px 13px;
+    }
+    /* ===cars slider end === */
+
+    /* ==car model start === */
+    #car_model {
+        padding: 85px 0;
+    }
+
+    #car_model ul li button {
+        font-size: 18px;
+    }
+    /* ==car model end === */
+
+    /* ===about part start === */
+    #about {
+        padding: 50px 0;
+    }
+
+    #about .about_heading {
+        margin-top: 30px;
+    }
+
+    #footer .item h5 {
+        font-size: 18px;
+    }
+    /* ===about part end === */
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* ===navbar part start === */
+    #navbar .toggler_icon i {
+        font-size: 22px;
+        color: white;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+/* ===navbar part end === */
+
+    /* ===banner part start === */
+
+    #banner .overlay {
+        padding: 150px 0 140px 0;
+    }
+    #banner .heading {
+        font-size: 52px;
+    }
+    /* ===banner part end === */
+
+    /* logo slider start  */
+    #logo_slider {
+        padding: 90px 0;
+    }
+    /* logo slider end  */
+
+    /* ===cars slider start === */
+
+    #cars .cars_slider .item {
+        margin: 0 20px;
+    }
+
+    #cars .cars_slider .item {
+        padding: 23px;
+    }
+
+    #cars .sub_heading {
+        font-size: 25px;
+    }
+
+    .arrow {
+        font-size: 20px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .prevarrow {
+        right: 11%;
+    }
+
+    #cars .cars_slider .item .bid .bid_btn a {
+        padding: 9px 13px;
+    }
+    /* ===cars slider end === */
+
+    /* ==car model start === */
+    #car_model {
+        padding: 85px 0;
+    }
+
+    #car_model ul li button {
+        font-size: 18px;
+    }
+    /* ==car model end === */
+
+    /* ===about part start === */
+    #about {
+        padding: 50px 0;
+    }
+
+    #about .about_heading {
+        margin-top: 30px;
+    }
+
+    #footer .item h5 {
+        font-size: 18px;
+    }
+    /* ===about part end === */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ===navbar part start === */
+    #navbar .toggler_icon i {
+        font-size: 22px;
+        color: white;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+/* ===navbar part end === */
+
+    /* ===banner part start === */
+
+    #banner .overlay {
+        padding: 150px 0 120px 0;
+    }
+    #banner .heading {
+        font-size: 48px;
+    }
+    /* ===banner part end === */
+
+    /* logo slider start  */
+    #logo_slider {
+        padding: 90px 0;
+    }
+    /* logo slider end  */
+
+    /* ===cars slider start === */
+
+    #cars .cars_slider .item {
+        margin: 0 10px;
+    }
+
+    #cars .cars_slider .item {
+        padding: 20px;
+    }
+
+    #cars .sub_heading {
+        font-size: 20px;
+    }
+
+    .arrow {
+        font-size: 20px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .prevarrow {
+        right: 11%;
+    }
+
+    #cars .cars_slider .item .bid .bid_btn a {
+        padding: 9px 13px;
+    }
+    /* ===cars slider end === */
+
+    /* ==car model start === */
+    #car_model {
+        padding: 85px 0;
+    }
+
+    #car_model ul li button {
+        font-size: 18px;
+    }
+    /* ==car model end === */
+
+    /* ===about part start === */
+    #about {
+        padding: 50px 0;
+    }
+
+    #about .about_heading {
+        margin-top: 30px;
+    }
+
+    #footer .item h5 {
+        font-size: 18px;
+    }
+    /* ===about part end === */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* ===navbar part start === */
+    #navbar .toggler_icon i {
+        font-size: 22px;
+        color: white;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+/* ===navbar part end === */
+
+    /* ===banner part start === */
+
+    #banner .overlay {
+        padding: 150px 0 110px 0;
+    }
+    #banner .heading {
+        font-size: 45px;
+    }
+    /* ===banner part end === */
+
+    /* logo slider start  */
+    #logo_slider {
+        padding: 66px 0;
+    }
+    /* logo slider end  */
+
+    /* ===cars slider start === */
+
+    #cars .cars_slider .item {
+        margin: 0 10px;
+    }
+
+    #cars .cars_slider .item {
+        padding: 20px;
+    }
+
+    #cars .sub_heading {
+        font-size: 20px;
+    }
+
+    .arrow {
+        font-size: 20px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .prevarrow {
+        right: 14%;
+    }
+
+    #cars .cars_slider .item .bid .bid_btn a {
+        padding: 9px 13px;
+    }
+    /* ===cars slider end === */
+
+    /* ==car model start === */
+    #car_model {
+        padding: 85px 0;
+    }
+
+    #car_model ul li button {
+        font-size: 18px;
+    }
+    /* ==car model end === */
+
+    /* ===about part start === */
+    #about {
+        padding: 50px 0;
+    }
+
+    #about .about_heading {
+        margin-top: 30px;
+    }
+
+    #footer .item h5 {
+        font-size: 13px;
+    }
+    /* ===about part end === */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* ===navbar part start === */
+    #navbar .toggler_icon i {
+        font-size: 22px;
+        color: white;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+/* ===navbar part end === */
+
+    /* ===banner part start === */
+
+    #banner .overlay {
+        padding: 150px 0 100px 0;
+    }
+    #banner .heading {
+        font-size: 40px;
+    }
+    /* ===banner part end === */
+
+    /* logo slider start  */
+    #logo_slider {
+        padding: 66px 0;
+    }
+    /* logo slider end  */
+
+    /* ===cars slider start === */
+
+    #cars .cars_slider .item {
+        margin: 0 10px;
+    }
+
+    #cars .cars_slider .item {
+        padding: 13px;
+    }
+
+    #cars .sub_heading {
+        font-size: 20px;
+    }
+
+    .arrow {
+        font-size: 20px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .prevarrow {
+        right: 14%;
+    }
+
+    #cars .cars_slider .item .bid .bid_btn a {
+        padding: 7px 8px;
+    }
+    /* ===cars slider end === */
+
+    /* ==car model start === */
+    #car_model {
+        padding: 50px 0;
+    }
+
+    #car_model ul li button {
+        font-size: 18px;
+    }
+    /* ==car model end === */
+
+    /* ===about part start === */
+    #about {
+        padding: 50px 0;
+    }
+
+    #about .about_heading {
+        margin-top: 30px;
+    }
+
+    #footer .item h5 {
+        font-size: 13px;
+    }
+    /* ===about part end === */
+}
+
+@media (max-width: 575.98px) {
+    /* ===navbar part start === */
+    #navbar .toggler_icon i {
+        font-size: 22px;
+        color: white;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+/* ===navbar part end === */
+
+    /* ===banner part start === */
+
+    #banner .overlay {
+        padding: 150px 0 93px 0;
+    }
+    #banner .heading {
+        font-size: 36px;
+    }
+    /* ===banner part end === */
+
+    /* logo slider start  */
+    #logo_slider {
+        padding: 66px 0;
+    }
+    /* logo slider end  */
+
+    /* ===cars slider start === */
+
+    #cars .cars_slider .item {
+        padding: 18px;
+    }
+
+    #cars .sub_heading {
+        font-size: 20px;
+    }
+
+    .arrow {
+        font-size: 20px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .prevarrow {
+        right: 19%;
+    }
+
+    #cars .cars_slider .item .bid .bid_btn a {
+        padding: 7px 8px;
+    }
+    /* ===cars slider end === */
+
+    /* ==car model start === */
+    #car_model {
+        padding: 50px 0;
+    }
+
+    #car_model ul li button {
+        font-size: 14px;
+    }
+    /* ==car model end === */
+
+    /* ===about part start === */
+    #about {
+        padding: 50px 0;
+    }
+
+    #about .about_heading {
+        margin-top: 30px;
+    }
+
+    #footer .item h5 {
+        font-size: 13px;
+    }
+    /* ===about part end === */
+}
